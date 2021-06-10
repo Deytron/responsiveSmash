@@ -1,19 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@700&display=swap');
 
 .navbar {
     background-color: #0ead69;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Baloo Tammudu 2', sans-serif;
+    height: 15%;
+}
+
+.nav-item {
+  font-size: 30px;
+}
+
+.list-group {
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.list-group-item {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  border: 0px;
+  background-color: #2cbe7f60;
+  height: 2.5em;
 }
 
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1400px) {
   .searchbar {
-    width: 30%;
+    width: 15%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .text-article {
+    height: 0px;
+    visibility: hidden;
   }
 }
 
@@ -30,7 +56,10 @@ a, a:hover, a:focus, a:active {
 }
 
 .articleimg {
-  height: 12em;
+  width: 15em;
+  max-width: 12em;
+  height: auto;
+  max-height: 10em;
   border-radius: 25px;
 }
 
@@ -61,6 +90,7 @@ a, a:hover, a:focus, a:active {
     text-overflow: ellipsis;
 }
 
-.divarticles {
-  border: 1px solid black;
+.divoffres {
+  background-color: #5aafc45b;
+  border-radius: 30px;
 }
