@@ -54,6 +54,11 @@ a, a:hover, a:focus, a:active {
 .text-article {
   font-size: 17px;
   font-family: 'Open Sans', sans-serif;
+  display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .divarticles {
