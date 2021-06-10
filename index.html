@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Presse Citron</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- BOOTSTRAP -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-xl navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/logo.svg" alt="Logo" width="200vh"></a>
+            <button class=" navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TESTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SMARTHPONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FINTECH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">STARTUPS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">AUTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">JEUX VIDEO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BONS PLANS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERIES</a>
+                    </li>
+                </ul>
+                <div class="input-group text-center searchbar rounded-3">
+                    <input id=" search-input" type="search" class="form-control" placeholder="Rechercher...">
+                    <button id="search-button" type="button" class="btn btn-primary">
+                        <i class="material-icons">search</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <!-- CAROUSEL -->
+        <div id="carouselExampleCaptions" class="carousel slide mt-5" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner carousize">
+                <div class="carousel-item active">
+                    <img src="assets/fille.jpg" class="d-block w-100 rounded-3" alt="..."
+                        style="filter: brightness(50%);">
+                    <div class="carousel-caption d-md-block d-flex h-75 align-items-bottom justify-content-bottom">
+                        <h2 class="caroubold text-center">STREAMING</h2>
+                        <h3>Tous les services de streaming comparés</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/asian.jpg" class="d-block w-100 rounded-3" alt="..."
+                        style="filter: brightness(50%);">
+                    <div class="carousel-caption d-md-block d-flex h-75 align-items-bottom justify-content-bottom">
+                        <h2 class="caroubold text-center">JEUX VIDEO</h2>
+                        <h3>Les meilleurs jeux pour votre enfant autiste</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/crypto.jpg" class="d-block w-100 rounded-3" alt="..."
+                        style="filter: brightness(50%);">
+                    <div class="carousel-caption d-md-block d-flex h-75 align-items-bottom justify-content-bottom">
+                        <h2 class="caroubold text-center">CRYPTOMONNAIE</h2>
+                        <h3>Le Bitcoin en chute libre, vous êtes mal</h3>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- FIN CAROUSEL -->
+        <!-- BORDEL -->
+        <div class="d-flex flex-wrap mt-5">
+            <!-- LISTE D'ARTICLES -->
+            <div class="d-flex col-4-md text-truncate divarticles">
+                <img src="assets/frerot.jpg" class="articleimg shadow" alt="">
+                <div class="d-flex flex-column mx-4">
+                    <div class="d-flex">
+                        <p class="cat-text">INFORMATIQUE</p>
+                        <p class="cat-text mx-2">-</p>
+                        <p class="date-text">23/09/21 </p>
+                    </div>
+                    <div class="title-art">BONJOUR JE SUIS UN TITRE D'ARTICLE</div>
+                    <div class="text-article"> J'aime les embryons bien chaud tout ça laà grrrr c'est ouf en vfrai on
+                        est là bim bim tout ça la niiger noir champs de coton bon c'est raciste on arrête je suis u
+                        ntexte exemple balblbz,gzr,krzofnjgnefjbnejbe putain la bite bonjour maman les kbebas sauce
+                        lagerienne oui le grand boudin grrrrr aouh aouh paul alexis verrier</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

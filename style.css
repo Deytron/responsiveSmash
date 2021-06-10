@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+
+.navbar {
+    background-color: #0ead69;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+@media (min-width: 1000px) {
+  .searchbar {
+    width: 30%;
+  }
+}
+
+.carousize {
+  height: 60vh;
+}
+
+.carousel {
+  font-family: 'Comfortaa', sans-serif;
+}
+
+.caroubold {
+  font-weight: 900;
+}
+
+.articleimg {
+  height: 12em;
+  border-radius: 25px;
+}
+
+.cat-text {
+  font-size: 12px;
+  color: grey;
+  font-weight: bold;
+}
+
+.date-text {
+  font-size: 12px;
+  color: grey;
+}
+
+.title-art {
+  font-size: 27px;
+  font-weight: 900;
+  font-family: 'Heebo', sans-serif;
+}
+
+.text-article {
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.divarticles {
+  border: 1px solid black;
+}
